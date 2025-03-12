@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Twitter, Linkedin, GitHub, Facebook, Mail, ArrowRight } from 'lucide-react';
+import { Twitter, Linkedin, Github, Facebook, Mail, ArrowRight } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -39,7 +38,7 @@ const Footer = () => {
                 className="w-10 h-10 rounded-full bg-white/80 flex items-center justify-center transition-colors hover:bg-primary hover:text-white"
                 aria-label="GitHub"
               >
-                <GitHub className="h-5 w-5" />
+                <Github className="h-5 w-5" />
               </a>
               <a 
                 href="#" 
