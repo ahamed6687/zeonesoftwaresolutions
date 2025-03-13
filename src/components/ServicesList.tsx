@@ -7,7 +7,10 @@ import {
   Shield, 
   Globe, 
   Smartphone,
-  ArrowRight
+  ArrowRight,
+  GraduationCap,
+  Headphones,
+  Paintbrush
 } from 'lucide-react';
 
 // Extended service information
@@ -82,6 +85,42 @@ const servicesData = [
       'Cross-Platform Solutions',
       'UI/UX Design',
       'Mobile App Maintenance'
+    ]
+  },
+  {
+    icon: <GraduationCap className="h-10 w-10 text-primary" />,
+    title: 'IT Training',
+    description: 'Comprehensive training programs to enhance your team\'s technical skills and knowledge.',
+    details: [
+      'Custom Training Programs',
+      'Technology Workshops',
+      'Developer Bootcamps',
+      'Certification Preparation',
+      'Continuing Education'
+    ]
+  },
+  {
+    icon: <Headphones className="h-10 w-10 text-primary" />,
+    title: 'IT Support',
+    description: 'Reliable technical support to ensure your systems run smoothly and efficiently.',
+    details: [
+      '24/7 Help Desk Services',
+      'Remote & On-site Support',
+      'Network Administration',
+      'Hardware & Software Maintenance',
+      'IT Infrastructure Management'
+    ]
+  },
+  {
+    icon: <Paintbrush className="h-10 w-10 text-primary" />,
+    title: 'UI/UX Design',
+    description: 'User-centered design solutions that enhance user satisfaction and engagement.',
+    details: [
+      'User Research & Analysis',
+      'Wireframing & Prototyping',
+      'Visual Design & Branding',
+      'Usability Testing',
+      'Design System Development'
     ]
   }
 ];

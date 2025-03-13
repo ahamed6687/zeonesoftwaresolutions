@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from 'react';
-import { Code, CloudCog, Database, Shield, Globe, Smartphone } from 'lucide-react';
+import { Code, CloudCog, Database, Shield, Globe, Smartphone, GraduationCap, Headphones, Paintbrush } from 'lucide-react';
 
 const services = [
   {
@@ -32,6 +32,21 @@ const services = [
     icon: <Smartphone className="h-8 w-8 text-primary" />,
     title: 'Mobile App Development',
     description: 'Native and cross-platform mobile applications tailored to your business needs.'
+  },
+  {
+    icon: <GraduationCap className="h-8 w-8 text-primary" />,
+    title: 'IT Training',
+    description: 'Comprehensive training programs to enhance your team\'s technical skills and knowledge.'
+  },
+  {
+    icon: <Headphones className="h-8 w-8 text-primary" />,
+    title: 'IT Support',
+    description: 'Reliable technical support to ensure your systems run smoothly and efficiently.'
+  },
+  {
+    icon: <Paintbrush className="h-8 w-8 text-primary" />,
+    title: 'UI/UX Design',
+    description: 'User-centered design solutions that enhance user satisfaction and engagement.'
   }
 ];
 
