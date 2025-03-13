@@ -34,7 +34,7 @@ const Navbar = () => {
             to="/" 
             className="text-xl md:text-2xl font-display font-bold tracking-tight"
           >
-            Horizon<span className="text-primary">Tech</span>
+            Zeone<span className="text-primary">Software</span>
           </Link>
         </div>
 
