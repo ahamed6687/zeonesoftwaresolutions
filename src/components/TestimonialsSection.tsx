@@ -5,25 +5,25 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    content: "HorizonTech completely transformed our digital infrastructure. Their expertise and dedication to our success made them an invaluable partner.",
+    content: "Zeone Software completely transformed our digital infrastructure. Their expertise and dedication to our success made them an invaluable partner.",
     author: "Sarah Johnson",
     title: "CTO, FinanceHub Inc."
   },
   {
     id: 2,
-    content: "Working with the HorizonTech team has been a game-changer for our business. They delivered a custom solution that exceeded our expectations.",
+    content: "Working with the Zeone Software team has been a game-changer for our business. They delivered a custom solution that exceeded our expectations.",
     author: "Michael Chen",
     title: "CEO, GrowthWave"
   },
   {
     id: 3,
-    content: "The cybersecurity services provided by HorizonTech gave us peace of mind knowing our sensitive data is protected. Highly recommended!",
+    content: "The cybersecurity services provided by Zeone Software gave us peace of mind knowing our sensitive data is protected. Highly recommended!",
     author: "Emma Rodriguez",
     title: "CISO, HealthCare Solutions"
   },
   {
     id: 4,
-    content: "HorizonTech's cloud migration strategy helped us reduce costs by 40% while improving our overall system performance. Impressive results!",
+    content: "Zeone Software's cloud migration strategy helped us reduce costs by 40% while improving our overall system performance. Impressive results!",
     author: "David Williams",
     title: "CIO, RetailMax"
   }

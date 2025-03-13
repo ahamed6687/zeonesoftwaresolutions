@@ -52,7 +52,12 @@ const AboutSection = () => {
           className="relative h-[400px] md:h-[500px] rounded-xl overflow-hidden opacity-0"
           style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-primary/20 rounded-xl"></div>
+          <img 
+            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
+            alt="Software Development" 
+            className="absolute inset-0 w-full h-full object-cover rounded-xl"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-primary/10 rounded-xl"></div>
           <div className="absolute inset-4 glass-panel rounded-lg overflow-hidden flex items-center justify-center">
             <div className="absolute top-6 left-6 w-20 h-20 bg-primary/10 rounded-full"></div>
             <div className="absolute bottom-8 right-8 w-32 h-32 bg-primary/20 rounded-full"></div>
@@ -71,9 +76,9 @@ const AboutSection = () => {
           className="opacity-0"
           style={{ animationDelay: '0.4s', animationFillMode: 'forwards' }}
         >
-          <h2 className="section-title">About HorizonTech</h2>
+          <h2 className="section-title">About Zeone Software</h2>
           <p className="text-lg mb-6 text-muted-foreground">
-            HorizonTech is a forward-thinking IT company dedicated to helping businesses
+            Zeone Software is a forward-thinking IT company dedicated to helping businesses
             harness the power of technology to achieve their goals and drive growth.
           </p>
           <p className="text-lg mb-8 text-muted-foreground">

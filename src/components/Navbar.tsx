@@ -32,9 +32,18 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link 
             to="/" 
-            className="text-xl md:text-2xl font-display font-bold tracking-tight"
+            className="flex items-center gap-2"
           >
-            Zeone<span className="text-primary">Software</span>
+            <div className="w-10 h-10 bg-white/90 rounded-full shadow-md flex items-center justify-center overflow-hidden border border-primary/20">
+              <img 
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=32&h=32&fit=crop&crop=center" 
+                alt="Zeone Logo" 
+                className="w-6 h-6 object-cover"
+              />
+            </div>
+            <span className="text-xl md:text-2xl font-display font-bold tracking-tight">
+              Zeone<span className="text-primary">Software</span>
+            </span>
           </Link>
         </div>
 
