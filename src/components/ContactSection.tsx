@@ -151,8 +151,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Email</p>
-                  <a href="mailto:contact@horizontech.com" className="hover:text-primary transition-colors">
-                    contact@horizontech.com
+                  <a href="mailto:zeonesoftware@gmail.com" className="hover:text-primary transition-colors">
+                    zeonesoftware@gmail.com
                   </a>
                 </div>
               </div>
@@ -165,8 +165,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Phone</p>
-                  <a href="tel:+1-555-123-4567" className="hover:text-primary transition-colors">
-                    +1 (555) 123-4567
+                  <a href="tel:+918667586727" className="hover:text-primary transition-colors">
+                    +91 8667586727
                   </a>
                 </div>
               </div>
@@ -180,9 +180,9 @@ const ContactSection = () => {
                 <div>
                   <p className="text-sm text-muted-foreground mb-1">Address</p>
                   <address className="not-italic">
-                    123 Tech Plaza, Suite 500<br />
-                    San Francisco, CA 94105<br />
-                    United States
+                    25 Velachery<br />
+                    Chennai<br />
+                    India
                   </address>
                 </div>
               </div>

@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Twitter, Linkedin, Github, Facebook, Mail, ArrowRight } from 'lucide-react';
+import { Twitter, Linkedin, Github, Facebook, Mail, ArrowRight, MapPin, Phone } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -12,7 +13,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="inline-block mb-6">
               <h3 className="text-2xl font-display font-bold tracking-tight">
-                Horizon<span className="text-primary">Tech</span>
+                Zeone<span className="text-primary">Software</span>
               </h3>
             </Link>
             <p className="text-muted-foreground mb-6">
@@ -113,10 +114,29 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-display font-semibold mb-6">Newsletter</h3>
-            <p className="text-muted-foreground mb-4">
-              Subscribe to our newsletter to get updates on our latest news and services.
-            </p>
+            <h3 className="text-lg font-display font-semibold mb-6">Contact Us</h3>
+            <div className="space-y-4">
+              <div className="flex items-start">
+                <MapPin className="h-5 w-5 text-primary mr-2 mt-1" />
+                <span className="text-muted-foreground">
+                  25 Velachery Chennai
+                </span>
+              </div>
+              <div className="flex items-start">
+                <Phone className="h-5 w-5 text-primary mr-2 mt-1" />
+                <a href="tel:+918667586727" className="text-muted-foreground hover:text-primary transition-colors">
+                  +91 8667586727
+                </a>
+              </div>
+              <div className="flex items-start">
+                <Mail className="h-5 w-5 text-primary mr-2 mt-1" />
+                <a href="mailto:zeonesoftware@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  zeonesoftware@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <h3 className="text-lg font-display font-semibold mt-6 mb-4">Newsletter</h3>
             <form className="mb-4">
               <div className="flex">
                 <input
@@ -134,19 +154,13 @@ const Footer = () => {
                 </button>
               </div>
             </form>
-            <div className="flex items-center">
-              <Mail className="h-5 w-5 text-primary mr-2" />
-              <a href="mailto:contact@horizontech.com" className="text-muted-foreground hover:text-primary transition-colors">
-                contact@horizontech.com
-              </a>
-            </div>
           </div>
         </div>
         
         <div className="pt-8 border-t border-border/50">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-              &copy; {currentYear} HorizonTech. All rights reserved.
+              &copy; {currentYear} Zeone Software Solutions. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
