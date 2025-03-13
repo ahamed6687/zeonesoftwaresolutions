@@ -1,11 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +21,10 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [scrolled]);
+
+  const isActive = (path: string) => {
+    return location.pathname === path;
+  };
 
   return (
     <header 
@@ -49,19 +54,28 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
-          <Link to="/" className="font-medium transition hover:text-primary">
+          <Link 
+            to="/" 
+            className={`font-medium transition ${isActive('/') ? 'text-primary' : 'hover:text-primary'}`}
+          >
             Home
           </Link>
-          <Link to="/services" className="font-medium transition hover:text-primary">
+          <Link 
+            to="/services" 
+            className={`font-medium transition ${isActive('/services') ? 'text-primary' : 'hover:text-primary'}`}
+          >
             Services
           </Link>
-          <Link to="/about" className="font-medium transition hover:text-primary">
+          <Link 
+            to="/about" 
+            className={`font-medium transition ${isActive('/about') ? 'text-primary' : 'hover:text-primary'}`}
+          >
             About
           </Link>
-          <Link to="/case-studies" className="font-medium transition hover:text-primary">
-            Case Studies
-          </Link>
-          <Link to="/contact" className="button-primary">
+          <Link 
+            to="/contact" 
+            className={isActive('/contact') ? 'button-primary bg-primary/90' : 'button-primary'}
+          >
             Contact Us
           </Link>
         </div>
@@ -84,35 +98,28 @@ const Navbar = () => {
           <nav className="h-full flex flex-col items-center justify-center space-y-8 text-lg">
             <Link 
               to="/" 
-              className="font-medium transition hover:text-primary" 
+              className={`font-medium transition ${isActive('/') ? 'text-primary' : 'hover:text-primary'}`}
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link 
               to="/services" 
-              className="font-medium transition hover:text-primary" 
+              className={`font-medium transition ${isActive('/services') ? 'text-primary' : 'hover:text-primary'}`}
               onClick={() => setIsMenuOpen(false)}
             >
               Services
             </Link>
             <Link 
               to="/about" 
-              className="font-medium transition hover:text-primary" 
+              className={`font-medium transition ${isActive('/about') ? 'text-primary' : 'hover:text-primary'}`}
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
             <Link 
-              to="/case-studies" 
-              className="font-medium transition hover:text-primary" 
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Case Studies
-            </Link>
-            <Link 
               to="/contact" 
-              className="button-primary" 
+              className={isActive('/contact') ? 'button-primary bg-primary/90' : 'button-primary'}
               onClick={() => setIsMenuOpen(false)}
             >
               Contact Us
