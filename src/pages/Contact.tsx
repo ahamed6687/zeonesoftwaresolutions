@@ -35,7 +35,7 @@ const Contact = () => {
                     </div>
                     <h3 className="text-lg font-medium mb-1">Zeone Software Solutions</h3>
                     <p className="text-muted-foreground">
-                      25 Velachery, Chennai, India
+                      125 Velachery, Chennai-600042, Tamil nadu, India
                     </p>
                   </div>
                 </div>
