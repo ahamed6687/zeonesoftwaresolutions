@@ -67,7 +67,7 @@ const Services = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="glass-panel rounded-xl overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
                 alt="Data Analytics" 
                 className="w-full h-48 object-cover"
               />
@@ -101,6 +101,49 @@ const Services = () => {
                 <h3 className="text-xl font-display font-semibold mb-2">Mobile Development</h3>
                 <p className="text-muted-foreground">
                   Native and cross-platform mobile applications.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional service highlights */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <div className="glass-panel rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81" 
+                alt="IT Training" 
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-display font-semibold mb-2">IT Training</h3>
+                <p className="text-muted-foreground">
+                  Comprehensive training programs for your team.
+                </p>
+              </div>
+            </div>
+            <div className="glass-panel rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
+                alt="IT Support" 
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-display font-semibold mb-2">IT Support</h3>
+                <p className="text-muted-foreground">
+                  Reliable technical support for your systems.
+                </p>
+              </div>
+            </div>
+            <div className="glass-panel rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1473091534298-04dcbce3278c" 
+                alt="UI/UX Design" 
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-display font-semibold mb-2">UI/UX Design</h3>
+                <p className="text-muted-foreground">
+                  User-centered design solutions.
                 </p>
               </div>
             </div>
