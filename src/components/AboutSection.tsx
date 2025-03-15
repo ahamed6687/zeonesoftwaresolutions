@@ -53,7 +53,7 @@ const AboutSection = () => {
           style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
+            src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" 
             alt="Software Development" 
             className="absolute inset-0 w-full h-full object-cover rounded-xl"
           />

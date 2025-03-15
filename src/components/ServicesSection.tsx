@@ -66,7 +66,7 @@ const ServicesSection = () => {
           <div className="glass-panel rounded-xl overflow-hidden h-full flex flex-col">
             <div className="relative h-48 overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" 
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
                 alt="Software Development" 
                 className="w-full h-full object-cover" 
               />
@@ -101,7 +101,7 @@ const ServicesSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-border/40">
             <div className="p-8 flex items-center">
               <img 
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81" 
+                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" 
                 alt="Team Collaboration" 
                 className="w-32 h-32 object-cover rounded-lg mr-6" 
               />
@@ -120,7 +120,7 @@ const ServicesSection = () => {
                 </p>
               </div>
               <img 
-                src="https://images.unsplash.com/photo-1581092160607-ee22621dd758" 
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
                 alt="Innovative Technology" 
                 className="w-32 h-32 object-cover rounded-lg ml-6" 
               />

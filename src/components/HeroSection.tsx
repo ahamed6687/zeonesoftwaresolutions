@@ -10,6 +10,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/10 rounded-full blur-3xl"></div>
         <div className="absolute top-1/2 -left-40 w-80 h-80 bg-primary/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/3 left-1/3 w-60 h-60 bg-primary/5 rounded-full blur-2xl"></div>
       </div>
       
       <div className="container mx-auto px-6 py-16 relative z-10">
@@ -48,20 +49,27 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className="hidden lg:block relative">
+          <div className="lg:block relative">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[450px] h-[450px] bg-primary/5 rounded-full"></div>
             <div className="glass-panel rounded-xl overflow-hidden shadow-xl relative z-10">
               <img 
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
-                alt="Professional working with technology" 
+                src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" 
+                alt="Gray and black laptop computer showing code" 
                 className="w-full h-full object-cover aspect-[4/3]" 
               />
             </div>
             <div className="absolute -bottom-10 -right-12 glass-panel rounded-lg p-4 shadow-lg animate-bounce-slow">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" 
-                alt="Technology closeup" 
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475" 
+                alt="Circuit board closeup" 
                 className="w-32 h-32 object-cover rounded" 
+              />
+            </div>
+            <div className="absolute -top-8 -left-10 glass-panel rounded-lg p-3 shadow-lg rotate-6">
+              <img 
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
+                alt="Programming code on screen" 
+                className="w-28 h-28 object-cover rounded" 
               />
             </div>
           </div>
