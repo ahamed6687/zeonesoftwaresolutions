@@ -2,7 +2,6 @@
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import ServicesSection from '@/components/ServicesSection';
 import ServicesList from '@/components/ServicesList';
 import { Briefcase } from 'lucide-react';
 
@@ -34,12 +33,95 @@ const Services = () => {
           </div>
         </section>
 
+        {/* Service highlights with images */}
+        <section className="section-container my-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+            <div className="glass-panel rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" 
+                alt="Custom software development" 
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-2xl font-display font-semibold mb-2">Custom Software Development</h3>
+                <p className="text-muted-foreground">
+                  Tailored solutions designed to meet your specific business requirements and challenges.
+                </p>
+              </div>
+            </div>
+            <div className="glass-panel rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" 
+                alt="Cloud Services" 
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-2xl font-display font-semibold mb-2">Cloud Services</h3>
+                <p className="text-muted-foreground">
+                  Scalable and secure cloud infrastructure to optimize your operations and reduce costs.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <div className="glass-panel rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
+                alt="Data Analytics" 
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-display font-semibold mb-2">Data Analytics</h3>
+                <p className="text-muted-foreground">
+                  Transform your data into actionable insights.
+                </p>
+              </div>
+            </div>
+            <div className="glass-panel rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5" 
+                alt="Cybersecurity" 
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-display font-semibold mb-2">Cybersecurity</h3>
+                <p className="text-muted-foreground">
+                  Comprehensive security solutions to protect your digital assets.
+                </p>
+              </div>
+            </div>
+            <div className="glass-panel rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1434494878577-86c23bcb06b9" 
+                alt="Mobile App Development" 
+                className="w-full h-48 object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-display font-semibold mb-2">Mobile Development</h3>
+                <p className="text-muted-foreground">
+                  Native and cross-platform mobile applications.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Detailed services section */}
         <ServicesList />
         
-        {/* CTA section */}
-        <section className="section-container bg-primary/5 rounded-3xl my-16">
-          <div className="max-w-3xl mx-auto text-center">
+        {/* CTA section with background image */}
+        <section className="relative py-20 my-16">
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" 
+              alt="Team collaboration" 
+              className="w-full h-full object-cover opacity-20"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-background/90"></div>
+          </div>
+          
+          <div className="max-w-3xl mx-auto text-center relative z-10 px-6">
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">Ready to Transform Your Business?</h2>
             <p className="text-lg text-muted-foreground mb-8">
               Contact us today to discuss how our IT services can help your business grow and succeed.
