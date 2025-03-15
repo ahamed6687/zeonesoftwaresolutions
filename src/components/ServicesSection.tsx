@@ -97,6 +97,7 @@ const ServicesSection = () => {
           </div>
         </div>
         
+        {/* Additional services showcase */}
         <div className="glass-panel rounded-xl overflow-hidden mt-12">
           <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-border/40">
             <div className="p-8 flex items-center">
@@ -124,6 +125,63 @@ const ServicesSection = () => {
                 alt="Innovative Technology" 
                 className="w-32 h-32 object-cover rounded-lg ml-6" 
               />
+            </div>
+          </div>
+        </div>
+        
+        {/* IT Training, IT Support, and UI/UX Design sections */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <div className="glass-panel rounded-xl overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81" 
+              alt="IT Training" 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-display font-semibold mb-2">IT Training</h3>
+              <p className="text-muted-foreground">
+                Comprehensive training programs to enhance your team's technical skills and knowledge.
+              </p>
+              <Link to="/services" className="inline-flex items-center mt-4 text-primary hover:underline">
+                Learn more 
+                <ChevronRight className="ml-1 h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+          
+          <div className="glass-panel rounded-xl overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
+              alt="IT Support" 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-display font-semibold mb-2">IT Support</h3>
+              <p className="text-muted-foreground">
+                Reliable technical support services to keep your systems running smoothly and efficiently.
+              </p>
+              <Link to="/services" className="inline-flex items-center mt-4 text-primary hover:underline">
+                Learn more 
+                <ChevronRight className="ml-1 h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+          
+          <div className="glass-panel rounded-xl overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1473091534298-04dcbce3278c" 
+              alt="UI/UX Design" 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-display font-semibold mb-2">UI/UX Design</h3>
+              <p className="text-muted-foreground">
+                User-centered design solutions that enhance user satisfaction and engagement.
+              </p>
+              <Link to="/services" className="inline-flex items-center mt-4 text-primary hover:underline">
+                Learn more 
+                <ChevronRight className="ml-1 h-4 w-4" />
+              </Link>
             </div>
           </div>
         </div>
