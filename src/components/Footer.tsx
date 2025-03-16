@@ -119,7 +119,7 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-primary mr-2 mt-1" />
                 <span className="text-muted-foreground">
-                  25 Velachery Chennai
+                  125 Velachery, Chennai-600042, Tamil Nadu, India
                 </span>
               </div>
               <div className="flex items-start">

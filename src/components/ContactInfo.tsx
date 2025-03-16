@@ -46,9 +46,9 @@ const ContactInfo = () => {
             <div>
               <p className="text-sm text-muted-foreground mb-1">Address</p>
               <address className="not-italic">
-                25 Velachery<br />
-                Chennai<br />
-                India
+                125 Velachery<br />
+                Chennai-600042<br />
+                Tamil Nadu, India
               </address>
             </div>
           </div>
