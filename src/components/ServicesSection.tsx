@@ -58,53 +58,84 @@ const ServicesSection = () => {
         <div className="absolute -top-20 -left-20 w-40 h-40 bg-primary/5 rounded-full blur-xl"></div>
         <div className="absolute -bottom-20 -right-20 w-40 h-40 bg-primary/5 rounded-full blur-xl"></div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-8">
-          <div className="md:col-span-2">
-            <ServicesList />
-          </div>
-          
-          <div className="glass-panel rounded-xl overflow-hidden h-full flex flex-col">
-            <div className="relative h-48 overflow-hidden">
-              <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
-                alt="Software Development" 
-                className="w-full h-full object-cover" 
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/10 flex items-end">
-                <div className="p-4">
-                  <h3 className="text-xl font-display font-semibold text-white">Expert Tech Solutions</h3>
-                </div>
-              </div>
-            </div>
-            
-            <div className="p-6 flex-grow flex flex-col justify-between">
-              <div>
-                <p className="mb-4">
-                  Our team of experienced IT professionals is dedicated to delivering tailored solutions 
-                  that meet your unique business needs.
-                </p>
-                <p className="mb-6">
-                  Whether you're looking for custom software development, IT training, or technical support, 
-                  we have the expertise to help you succeed.
-                </p>
-              </div>
-              
-              <Link to="/services" className="button-primary inline-flex self-start">
-                View All Services
+        {/* Main services grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+          <div className="glass-panel rounded-xl overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" 
+              alt="Software Development" 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-display font-semibold mb-2">Software Development</h3>
+              <p className="text-muted-foreground mb-4">
+                Tailored solutions designed to meet your specific business requirements.
+              </p>
+              <Link to="/services" className="inline-flex items-center text-primary hover:underline">
+                Learn more 
                 <ChevronRight className="ml-1 h-4 w-4" />
               </Link>
+            </div>
+          </div>
+          
+          <div className="glass-panel rounded-xl overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" 
+              alt="Cloud Services" 
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-display font-semibold mb-2">Cloud Services</h3>
+              <p className="text-muted-foreground mb-4">
+                Scalable and secure cloud infrastructure to optimize your operations.
+              </p>
+              <Link to="/services" className="inline-flex items-center text-primary hover:underline">
+                Learn more 
+                <ChevronRight className="ml-1 h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+          
+          <div className="md:col-span-1">
+            <div className="glass-panel rounded-xl overflow-hidden h-full flex flex-col">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
+                  alt="Software Development" 
+                  className="w-full h-full object-cover" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/10 flex items-end">
+                  <div className="p-4">
+                    <h3 className="text-xl font-display font-semibold text-white">Expert Tech Solutions</h3>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="p-6 flex-grow flex flex-col justify-between">
+                <div>
+                  <p className="mb-4">
+                    Our team of experienced IT professionals is dedicated to delivering tailored solutions 
+                    that meet your unique business needs.
+                  </p>
+                </div>
+                
+                <Link to="/services" className="button-primary inline-flex self-start">
+                  View All Services
+                  <ChevronRight className="ml-1 h-4 w-4" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
         
         {/* Additional services showcase */}
         <div className="glass-panel rounded-xl overflow-hidden mt-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-border/40">
-            <div className="p-8 flex items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 divide-y md:divide-y-0 md:divide-x divide-border/40">
+            <div className="p-8 flex flex-col md:flex-row items-center">
               <img 
                 src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" 
                 alt="Team Collaboration" 
-                className="w-32 h-32 object-cover rounded-lg mr-6" 
+                className="w-32 h-32 object-cover rounded-lg mb-6 md:mb-0 md:mr-6" 
               />
               <div>
                 <h3 className="text-xl font-display font-semibold mb-2">Collaborative Approach</h3>
@@ -113,7 +144,7 @@ const ServicesSection = () => {
                 </p>
               </div>
             </div>
-            <div className="p-8 flex items-center">
+            <div className="p-8 flex flex-col-reverse md:flex-row items-center">
               <div>
                 <h3 className="text-xl font-display font-semibold mb-2">Innovative Technology</h3>
                 <p className="text-muted-foreground">
@@ -123,8 +154,47 @@ const ServicesSection = () => {
               <img 
                 src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" 
                 alt="Innovative Technology" 
-                className="w-32 h-32 object-cover rounded-lg ml-6" 
+                className="w-32 h-32 object-cover rounded-lg mb-6 md:mb-0 md:ml-6" 
               />
+            </div>
+          </div>
+        </div>
+        
+        {/* Data analytics and Cybersecurity section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+          <div className="glass-panel rounded-xl overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952" 
+              alt="Data Analytics" 
+              className="w-full h-56 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-display font-semibold mb-2">Data Analytics</h3>
+              <p className="text-muted-foreground">
+                Transform your data into actionable insights to drive strategic business decisions.
+              </p>
+              <Link to="/services" className="inline-flex items-center mt-4 text-primary hover:underline">
+                Learn more 
+                <ChevronRight className="ml-1 h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+          
+          <div className="glass-panel rounded-xl overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5" 
+              alt="Cybersecurity" 
+              className="w-full h-56 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-display font-semibold mb-2">Cybersecurity</h3>
+              <p className="text-muted-foreground">
+                Comprehensive security solutions to protect your valuable digital assets and data.
+              </p>
+              <Link to="/services" className="inline-flex items-center mt-4 text-primary hover:underline">
+                Learn more 
+                <ChevronRight className="ml-1 h-4 w-4" />
+              </Link>
             </div>
           </div>
         </div>
