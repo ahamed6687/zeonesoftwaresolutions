@@ -67,8 +67,8 @@ const HeroSection = () => {
             </div>
             <div className="absolute -top-8 -left-10 glass-panel rounded-lg p-3 shadow-lg rotate-6">
               <img 
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" 
-                alt="Programming code on screen" 
+                src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7" 
+                alt="Colorful code on screen" 
                 className="w-28 h-28 object-cover rounded" 
               />
             </div>
