@@ -72,11 +72,11 @@ const HeroSection = () => {
                 className="w-28 h-28 object-cover rounded" 
               />
             </div>
-            {/* Added new coding-related image */}
+            {/* Replaced MacBook image with people discussion image */}
             <div className="absolute top-1/2 -right-14 glass-panel rounded-lg p-3 shadow-lg -rotate-12">
               <img 
-                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" 
-                alt="MacBook with code on screen" 
+                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81" 
+                alt="People discussing around display screens" 
                 className="w-36 h-24 object-cover rounded" 
               />
             </div>
