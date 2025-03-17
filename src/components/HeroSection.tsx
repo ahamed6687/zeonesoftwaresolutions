@@ -53,7 +53,7 @@ const HeroSection = () => {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[450px] h-[450px] bg-primary/5 rounded-full"></div>
             <div className="glass-panel rounded-xl overflow-hidden shadow-xl relative z-10">
               <img 
-                src="" https://unsplash.com/photos/a-computer-screen-with-a-bunch-of-code-on-it-eDUKZFYY1K4
+                src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8" 
                 alt="computer showing code" 
                 className="w-full h-full object-cover aspect-[4/3]" 
               />
