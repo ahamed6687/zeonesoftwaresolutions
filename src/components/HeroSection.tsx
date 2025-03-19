@@ -25,40 +25,10 @@ const HeroSection = () => {
               Transform Your Business with <span className="text-primary">Modern Technology</span>
             </h1>
             
-            <p className="text-xl text-muted-foreground mb-5">
+            <p className="text-xl text-muted-foreground mb-8">
               Zeone Software delivers cutting-edge IT services and custom software solutions 
               that help businesses thrive in the digital era.
             </p>
-            
-            <div className="glass-panel rounded-lg p-5 mb-8">
-              <h3 className="text-lg font-medium mb-3">Our Core Services:</h3>
-              <ul className="grid grid-cols-2 gap-x-3 gap-y-2 text-left">
-                <li className="flex items-center">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary mr-2"></span>
-                  Custom Software
-                </li>
-                <li className="flex items-center">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary mr-2"></span>
-                  Cloud Solutions
-                </li>
-                <li className="flex items-center">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary mr-2"></span>
-                  Web Development
-                </li>
-                <li className="flex items-center">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary mr-2"></span>
-                  Mobile Apps
-                </li>
-                <li className="flex items-center">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary mr-2"></span>
-                  Cybersecurity
-                </li>
-                <li className="flex items-center">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary mr-2"></span>
-                  Data Analytics
-                </li>
-              </ul>
-            </div>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link 
