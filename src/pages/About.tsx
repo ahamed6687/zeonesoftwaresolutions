@@ -38,7 +38,7 @@ const About = () => {
             <div>
               <h2 className="section-title">Our Journey</h2>
               <p className="text-lg mb-6 text-muted-foreground">
-                Founded in 2008, Zeone Software Solutions has grown from a small team of passionate 
+                Founded in 2019, Zeone Software Solutions has grown from a small team of passionate 
                 developers to a comprehensive IT solutions provider serving businesses across industries.
               </p>
               <p className="text-lg mb-6 text-muted-foreground">

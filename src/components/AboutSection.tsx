@@ -63,10 +63,10 @@ const AboutSection = () => {
             <div className="absolute bottom-8 right-8 w-32 h-32 bg-primary/20 rounded-full"></div>
             <div className="relative z-10 text-center p-8">
               <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                <span className="text-4xl font-display font-bold text-primary">15+</span>
+                <span className="text-4xl font-display font-bold text-primary">5+</span>
               </div>
               <h3 className="text-2xl font-display font-semibold mb-2">Years of Excellence</h3>
-              <p className="text-muted-foreground">Delivering exceptional IT solutions since 2008</p>
+              <p className="text-muted-foreground">Delivering exceptional IT solutions since 2019</p>
             </div>
           </div>
         </div>
