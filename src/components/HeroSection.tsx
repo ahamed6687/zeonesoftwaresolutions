@@ -72,6 +72,14 @@ const HeroSection = () => {
                 className="w-28 h-28 object-cover rounded" 
               />
             </div>
+            {/* Company Logo Display */}
+            <div className="absolute bottom-20 left-0 glass-panel rounded-lg p-3 shadow-lg rotate-12 z-20">
+              <img 
+                src="/lovable-uploads/6f2ca793-e5f3-4798-958f-aa99818001c3.png" 
+                alt="Zeone Logo" 
+                className="w-40 h-40 object-contain" 
+              />
+            </div>
             {/* Replaced MacBook image with people discussion image */}
             <div className="absolute top-1/2 -right-14 glass-panel rounded-lg p-3 shadow-lg -rotate-12">
               <img 

@@ -39,11 +39,11 @@ const Navbar = () => {
             to="/" 
             className="flex items-center gap-2"
           >
-            <div className="w-10 h-10 bg-white/90 rounded-full shadow-md flex items-center justify-center overflow-hidden border border-primary/20">
+            <div className="w-10 h-10 flex items-center justify-center">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=32&h=32&fit=crop&crop=center" 
+                src="/lovable-uploads/6f2ca793-e5f3-4798-958f-aa99818001c3.png" 
                 alt="Zeone Logo" 
-                className="w-6 h-6 object-cover"
+                className="w-10 h-10 object-contain"
               />
             </div>
             <span className="text-xl md:text-2xl font-display font-bold tracking-tight">

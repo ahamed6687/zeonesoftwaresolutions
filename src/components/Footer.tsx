@@ -10,7 +10,12 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
           <div>
-            <Link to="/" className="inline-block mb-6">
+            <Link to="/" className="inline-flex items-center gap-2 mb-6">
+              <img 
+                src="/lovable-uploads/6f2ca793-e5f3-4798-958f-aa99818001c3.png" 
+                alt="Zeone Logo" 
+                className="w-8 h-8 object-contain"
+              />
               <h3 className="text-2xl font-display font-bold tracking-tight">
                 Zeone<span className="text-primary">Software</span>
               </h3>
